@@ -25,7 +25,9 @@ angular.module('myCoolApp', ['ionic','ionic.ion.showWhen'])
 
 Finally, mark an element with the attribute and a value.
 
+```
 <div show-when="large">test</div>
+```
 
 Note: "large" maps to "(min-width:768px)"
 
