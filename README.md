@@ -43,6 +43,7 @@ Finally, mark an element with the attribute and a value.
 ```
 
 Note: "large" maps to "(min-width:768px)"
+
 Note: for ```show-when-state``` a || indicates OR logic.
 
 ##Questions
