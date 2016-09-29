@@ -10,6 +10,8 @@ More Info: http://mcgivery.com/ionic-showwhen-directive/
 
 A third directive is ```showWhenState``` which shows an element when the state name (or names) passed to and attribute match the current state.
 
+A fourth directive is ```hideWhenState``` which hides an element when the state name (or names) passed to and attribute match the current state.
+
 ##Usage
 
 First, import the script into your page.
@@ -42,9 +44,13 @@ Finally, mark an element with the attribute and a value.
 <div show-when-state="tabs.about || tabs.facts">test</div>
 ```
 
+```
+<div hide-when-state="tabs.about || tabs.facts">test</div>
+```
+
 Note: "large" maps to "(min-width:768px)"
 
-Note: for ```show-when-state``` a || indicates OR logic.
+Note: for ```show-when-state``` and ```hide-when-state``` a || indicates OR logic.
 
 ##Questions
 Feel free to ask any questions on twitter @andrewmcgivery
